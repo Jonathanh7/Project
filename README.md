@@ -1,2 +1,2 @@
 # Project
-Currency Exchange Web App
+Currency Exchange Web App.
