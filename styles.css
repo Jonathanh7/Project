@@ -9,7 +9,7 @@ html {
 }
 
 body {
-background: url(business-background\ \(1\).jpg);
+/* background: url(business-background\ \(1\).jpg); */
 background-position: center center;
 background-attachment: fixed; 
 background-size: cover; 
@@ -82,7 +82,6 @@ input {
 }
 .down-under{
   height:100px;
-  width: 260px;
   color: #dee498;
   font-size: 70px;
   background: rgba(0, 0, 0, .6);
@@ -95,7 +94,7 @@ input {
 
 @media (max-width: 700px) {
 body {
-  background: url(business-background-design_1200-30.jpg);
+  background: url(business-background-design_1200-30.jpg) !important;
   
   background-position: center;
   height: 100%;
@@ -126,7 +125,40 @@ body {
   .drop{
     font-size: 25px;
   }
+ 
+  select {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+}
+/* @media (max-width: 1450px) {
+body {
+  background: url(business-background\ \(1\).jpg);
+  background-position: center center;
+  height: 100%;
+  margin: 0;            
+  position: absolute;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+html {
+  margin: 0;
+  height: 100%;
+}
+#particles-js{
+  background-image: none;
+}
+h1 {
+  display: flex;
+  justify-content: start;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+p {
+  margin-top: 80px;
 }
 
+}
 
-
+ */
