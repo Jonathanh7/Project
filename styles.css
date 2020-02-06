@@ -38,14 +38,14 @@ background-repeat: no-repeat;
 
 
 h1 {
-  font-family: 'Blinker', sans-serif;
+  font-family: 'Bowlby One SC', cursive;
   font-size: 64px;
   margin: 0 auto;
   text-align: center; 
   color: gainsboro;
   width: 480%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   background: #5f607c;
 }
 p {
@@ -92,14 +92,22 @@ input {
   display: none;
 }
 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background:#5f607c;
+  
+}
+
+
+
 @media (max-width: 700px) {
 body {
-  background: url(business-background-design_1200-30.jpg) !important;
-  
+  background: url('business-background-design_1200-30.jpg');
   background-position: center;
-  height: 100%;
+  height: center;
   margin: 0; 
-  position: absolute;
 }
   html {
     margin: 0;
@@ -111,6 +119,7 @@ body {
     top: 0;
     position: fixed;
     width: 100%;
+    font-size: 46px;
   }
   p {
     color: navy;
